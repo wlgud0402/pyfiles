@@ -1,0 +1,5 @@
+표쥰 모듈등의 정보가 궁금힐때 가장먼저 확인해야 하는 것은
+
+파이썬 공식문서 입니다
+
+https://docs.python.org/3/library/index.html

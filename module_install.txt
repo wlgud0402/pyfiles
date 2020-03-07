@@ -1,0 +1,7 @@
+모듈 설치하기
+
+pip install 모듈이름
+
+beautifulsoup
+
+flask
