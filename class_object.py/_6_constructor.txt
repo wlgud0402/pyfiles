@@ -1,0 +1,39 @@
+#클래스 이름과 같은 함수를 [생성자] 라고 부른다
+#클래스 내부에 __init__ 라는 함수를 만들면 객체를 생성할때 처리한 내용을 작성할 수 있다.
+
+# clas 클래스이름:
+#     def __init__(self, 추가적인 매개변수):
+#         pass
+
+# 클래스 내부의 함수의 첫번째 매개변수는 반드시 self
+# self는 자기자신을 나타내는 딕셔너리, 그 기능과 속성에 접근할때는 self.<식별자> 형태
+
+
+
+#클래스 선언
+class Student():
+    def __init__(self, name, korean, math, english, science):
+        self.name = name
+        self.korean = korean
+        self.math = math
+        self.english = english
+        self.science = science
+
+#학생리스트 선언
+students = [
+    Student("윤인성", 87, 98, 88, 95),
+    Student("연하진", 92, 98, 96, 98),
+    Student("구지연", 76, 96, 94, 90),
+    Student("나선주", 98, 92, 96, 92),
+    Student("윤아린", 95, 98, 98, 98),
+    Student("윤명월", 64, 88, 92, 92),
+]
+
+#Student 인스턴스의 속성에 접근하는 방법
+stdents[0].name
+stdents[0].korean
+stdents[0].math
+stdents[0].english
+stdents[0].science
+
+#이렇게 만들면 Student 인스턴스가 생성될때 속성이 직접 추가된다
